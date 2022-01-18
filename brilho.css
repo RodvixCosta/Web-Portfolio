@@ -54,7 +54,7 @@ nav a{
 }
 /* Home */
 .capa{
-    background-image:url("./imagens/capa.png");
+    background-image:url("./imagens/capa.webp");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -66,7 +66,7 @@ nav a{
     right: 0;
     top: 17.6rem;
     position: absolute;
-    background-image: url("./imagens/lorennaeeu.png");
+    background-image: url("./imagens/lorennaeeu.webp");
     width: 39.3rem;
     height: 45rem;
 }
@@ -211,15 +211,15 @@ color: #000000;
     display: grid;
 }
 .content1{
-    background-image: url(./imagens/samiraeeu2.png);
+    background-image: url(./imagens/samiraeeu2.webp);
     grid-column: 1;
 }
 .content2{
-    background-image: url(./imagens/afonso1.png);
+    background-image: url(./imagens/afonso1.webp);
     grid-column: 2;
 }
 .content3{
-    background-image: url(./imagens/shanks.jpg);
+    background-image: url(./imagens/shanks.webp);
     grid-column: 3;
 }
 .content1:hover .description, .content2:hover .description, .content3:hover .description{
@@ -282,7 +282,7 @@ color: #000000;
     column-gap: 5rem;
 }
 .about_element1{
-    background-image: url(./imagens/rodrigoc.png);
+    background-image: url(./imagens/rodrigoc.webp);
     grid-column: 1;
     background-size: cover;
     background-repeat: no-repeat;
