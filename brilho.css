@@ -54,7 +54,7 @@ nav a{
 }
 /* Home */
 .capa{
-    background-image:url("../lesson/imagens/capa.png");
+    background-image:url("./imagens/capa.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -62,11 +62,11 @@ nav a{
     background-size: cover;
 }
 .foto1{
-    left: calc(50% - 39.3rem/2 + 36.3rem);
+    left: calc(50% - 39.3rem / 2 + 36.3rem);
     right: 0;
     top: 17.6rem;
     position: absolute;
-    background-image: url("../lesson/imagens/lorennaeeu.png");
+    background-image: url("./imagens/lorennaeeu.png");
     width: 39.3rem;
     height: 45rem;
 }
@@ -83,8 +83,8 @@ box-sizing: border-box;
 border-radius: 42px;
 justify-content: center;
 display: grid;
-grid-template-rows: 1fr 3fr;
-grid-template-columns: 1fr 10fr 1fr;
+grid-template-rows: 1fr 2.7fr;
+grid-template-columns: 0.8fr 10fr 0.8fr;
 }
 .sobremim h2{
     font-size: 4rem;
@@ -211,15 +211,15 @@ color: #000000;
     display: grid;
 }
 .content1{
-    background-image: url(../lesson/imagens/samiraeeu2.png);
+    background-image: url(./imagens/samiraeeu2.png);
     grid-column: 1;
 }
 .content2{
-    background-image: url(../lesson/imagens/afonso1.png);
+    background-image: url(./imagens/afonso1.png);
     grid-column: 2;
 }
 .content3{
-    background-image: url(../lesson/imagens/shanks.jpg);
+    background-image: url(./imagens/shanks.jpg);
     grid-column: 3;
 }
 .content1:hover .description, .content2:hover .description, .content3:hover .description{
@@ -227,6 +227,15 @@ color: #000000;
     background-color: rgba(0, 0, 0, 0.55);
     grid-template-rows: 1fr 1fr 1fr;
 }
+@keyframes fading{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 .content h1{
     font-size: 2rem;    
     color: #ffffff;
@@ -245,6 +254,7 @@ color: #000000;
 .content1:hover .text, .content2:hover .text, .content3:hover .text{
     display: block;
     grid-row: 2;
+    animation: fading 0.5s ease-in-out;
 }
 .description h1{
     /* Reference */
@@ -272,7 +282,7 @@ color: #000000;
     column-gap: 5rem;
 }
 .about_element1{
-    background-image: url(../lesson/imagens/rodrigoc.png);
+    background-image: url(./imagens/rodrigoc.png);
     grid-column: 1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -303,18 +313,26 @@ color: #000000;
     align-self: center;
     justify-self: center;
 }
+
 .redes_sociais i{
     justify-content: space-between;
     padding: 0.7rem;
 }
 .fa-instagram-square{
-    color:rgb(170, 105, 179); 
+    color:rgb(196, 116, 172); 
     cursor: pointer;   
 }
 .fa-linkedin{
     color: #044e6e;
     cursor: pointer; 
 }
+.fa-instagram-square:hover{
+    color: #fff
+}
+.fa-linkedin:hover{
+    color:#FFF
+}
+
 footer{
     height: 2vh;
     width: 100%;
