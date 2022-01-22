@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+html,body{
+    font-size: 62.5%; /*10 dividido por 16 vezes 100 */ 
+    min-height: 100vh;
+    width: 100%;
+}
+footer{
+    height: 2vh;
+    width: 100%;
+}
+.pe_da_letra{
+    font-size: 1.8rem;
+    color: #fff;
+    height: 100%;
+    background-color: #0b4b66;
+    padding-left: 12rem;
+}

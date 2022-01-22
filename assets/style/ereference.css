@@ -1,0 +1,92 @@
+#referencias{
+    width: 100%;
+    height: calc(100vh - 13.6rem);
+    display: flex;  
+    flex-direction: column;  
+    background-image: linear-gradient(to bottom, #003f73, #212d37);
+}
+.referencias_title{
+    font-size: 2rem;
+    font-weight: normal;
+    color:#ffffff;
+    flex-direction: column;
+    padding: 5rem 10%;
+}
+.referenceContent{
+    width: 78%;
+    height: 65%;
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;   
+}
+.content{
+    height: 100%;
+    box-shadow: inset -5px -200px 120px -120px black,  0 0 15px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset -5px -200px 120px -120px black, 0 0 15px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:inset -5px -200px 120px -120px black, 0 0 15px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+}
+.description{
+    background-color: transparent;
+    height: 10%;
+    border-radius: 1rem;
+    width: 100%;
+    align-self: flex-end;
+    transition: all .5s;
+    justify-content: center;
+    display: grid;
+}
+.content1{
+    background-image: url("../imagens/samiraeeu2.webp");
+    grid-column: 1;
+}
+.content2{
+    background-image: url("../imagens/afonso1.webp");
+    grid-column: 2;
+}
+.content3{
+    background-image: url("../imagens/shanks.webp");
+    grid-column: 3;
+}
+.content1:hover .description, .content2:hover .description, .content3:hover .description{
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.55);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+@keyframes fading{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.content h1{
+    font-size: 2rem;    
+    color: #ffffff;
+    grid-column: 1;
+    display: flex;  
+    justify-content: center;
+} 
+.text{
+    color: #ffffff;
+    font-size: 1.5rem;  
+    align-self: center;
+    display: none;    
+    padding: 0 2rem;
+    text-align: justify;
+}
+.content1:hover .text, .content2:hover .text, .content3:hover .text{
+    display: block;
+    grid-row: 2;
+    animation: fading 0.5s ease-in-out;
+}
+.description h1{
+    /* Reference */
+    grid-row: 1;
+}

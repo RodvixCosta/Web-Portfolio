@@ -1,0 +1,42 @@
+#cabecudo{
+    width: 100vw;
+    height: 13.8rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+.logo{
+    height: 100%;
+    width: 50rem;
+    background-repeat: no-repeat;
+    background-size:20rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}    
+nav{
+    display: flex;
+    width:  50%;
+    height: 100%;
+    
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    height: 100%;   
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-decoration: none;
+}

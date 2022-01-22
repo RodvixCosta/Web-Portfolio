@@ -1,0 +1,49 @@
+.capa{
+    background-image:url("../imagens/capa.webp");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto1{
+    left: calc(50% - 39.3rem / 2 + 36.3rem);
+    right: 0;
+    top: 17.6rem;
+    position: absolute;
+    background-image: url("../imagens/lorennaeeu.webp");
+    width: 39.3rem;
+    height: 45rem;
+}
+
+.sobremim{
+position: absolute;
+width: 76.2rem;
+height: 25.3rem;
+left: 6.9rem;
+top: 20rem;
+background: #F4F8FA;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 42px;
+justify-content: center;
+display: grid;
+grid-template-rows: 1fr 2.7fr;
+grid-template-columns: 0.8fr 10fr 0.8fr;
+}
+.sobremim h2{
+    font-size: 4rem;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    grid-column: 2;
+}
+.sobremim h3{
+    font-size: 2rem;
+    align-items: center;
+    text-align: justify;
+    padding: 3rem 0;
+    grid-column: 2;
+}
