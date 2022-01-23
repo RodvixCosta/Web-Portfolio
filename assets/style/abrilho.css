@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@font-face {
+    font-family: acmesa;
+    src: url('../fonts/acmesa.TTF'); 
+    font-family: acmesab;
+    src: url('../fonts/acmesab.TTF');
+    font-family: acmesai;
+    src: url('../fonts/acmesai.TTF');
+}   
 *{
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: acmesa, acmesab, acmesai;
 }
 html,body{
     font-size: 62.5%; /*10 dividido por 16 vezes 100 */ 

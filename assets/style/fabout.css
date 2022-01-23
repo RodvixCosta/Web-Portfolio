@@ -29,13 +29,13 @@
     grid-template-rows: 1fr 3fr;
 }
 .about_element2 h2, .about_element3 h2{
-    font-size: 2.8rem;
+    font-size: 2rem;
     grid-row: 1;
     color: #fff;
     justify-self: center;
 }
 .about_element2 p, .about_element3 p{
-    font-size: 2rem;
+    font-size: 1.4rem;
     grid-row: 2;
     color:#fff;
     justify-self: center;
