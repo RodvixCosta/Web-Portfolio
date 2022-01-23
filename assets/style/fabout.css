@@ -11,7 +11,7 @@
     padding: 5rem 10%;
 }
 .about_content{
-    width: 78%;
+    width: 80vw;
     height: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -21,7 +21,7 @@
 .about_element1{
     background-image: url("../imagens/rodrigoc.webp");
     grid-column: 1;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .about_element2{
@@ -55,7 +55,7 @@
     justify-content: space-between;
     padding: 0.7rem;
 }
-.fa-instagram-square{
+.fa-github-square{
     color:rgb(196, 116, 172); 
     cursor: pointer;   
 }
@@ -63,7 +63,7 @@
     color: #044e6e;
     cursor: pointer; 
 }
-.fa-instagram-square:hover{
+.fa-github-square:hover{
     color: #fff
 }
 .fa-linkedin:hover{

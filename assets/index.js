@@ -1,8 +1,8 @@
 AOS.init();
 type="text/javascript">
 $(document).ready(function() {
-$("#instagram").click(function() {
-        window.location = "https://www.instagram.com/irmao_da_lorenna/";
+$("#github").click(function() {
+        window.location = "https://github.com/RodvixCosta/";
     });
 });
 type="text/javascript">
