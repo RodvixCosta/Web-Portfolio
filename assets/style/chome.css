@@ -1,4 +1,4 @@
-.capa{
+#inicial{
     background-image:url("../imagens/capa.webp");
     height: 100vh;
     background-attachment: fixed;
@@ -25,7 +25,6 @@ top: 20rem;
 background: #F4F8FA;
 border: 1px solid #000000;
 box-sizing: border-box;
-border-radius: 42px;
 justify-content: center;
 display: grid;
 grid-template-rows: 1fr 2.7fr;
@@ -46,4 +45,30 @@ grid-template-columns: 0.8fr 10fr 0.8fr;
     text-align: justify;
     padding: 3rem 0;
     grid-column: 2;
+}
+@media screen and (max-width: 600px){   
+    #inicial{
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column-reverse;
+        background-size: auto;
+    }
+    .sobremim{
+        width: 80vw;
+        position: unset;
+        margin: 5rem auto 0 auto;
+        height: auto;
+        padding: 1rem;
+
+    }
+    .foto1{
+        width: 21.8rem;
+        height: 24.9rem;
+        position: unset;
+        margin: 0 auto;
+    }
+    .sobremim h3{
+        padding: 0;
+        align-self: center;
+    }
 }

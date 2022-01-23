@@ -6,12 +6,15 @@
     justify-content: space-between;
     position: fixed;
     z-index: 2;
+    top:0;
 }
+
 .logo{
     height: 100%;
     width: 50rem;
     background-repeat: no-repeat;
-    background-size:20rem;
+    background-size:50rem;
+    background-image: url(../imagens/irmaodalorenna.webp);
 }
 .logo img{
     width: 100%;
@@ -39,4 +42,15 @@ nav a{
     font-weight: bold;
     font-size: 2.2rem;
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    nav ul{
+        display: none;
+    }
+    .logo{
+        background-image: url(../imagens/logoidl.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
