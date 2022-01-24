@@ -5,30 +5,40 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.gridinicial{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    grid-template-rows: 13.8rem 3.2rem 45rem 5rem;
+}
+.gridfoto{
+    grid-column: 2;
+    grid-row: 3;
+}
+.gridsobremim{
+    grid-column: 1;
+    padding-top: 4rem;
+    background-size: cover;
+    grid-row: 3;
 }
 .foto1{
-    left: calc(50% - 39.3rem / 2 + 36.3rem);
-    right: 0;
-    top: 17.6rem;
-    position: absolute;
     background-image: url("../imagens/lorennaeeu.webp");
-    width: 39.3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 45rem;
+    grid-column: 2;
 }
-
 .sobremim{
-position: absolute;
-width: 76.2rem;
-height: 25.3rem;
-left: 6.9rem;
-top: 20rem;
-background: #F4F8FA;
-border: 1px solid #000000;
-box-sizing: border-box;
-justify-content: center;
-display: grid;
-grid-template-rows: 1fr 2.7fr;
-grid-template-columns: 0.8fr 10fr 0.8fr;
+    grid-column: 1;
+    background: #F4F8FA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 2.7fr;
+    grid-template-columns: 0.8fr 10fr 0.8fr;
 }
 .sobremim h2{
     font-size: 4rem;

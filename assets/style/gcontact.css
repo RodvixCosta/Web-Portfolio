@@ -1,5 +1,61 @@
-/* #contact{
+#contato{
+    display: flex;
     width: 100%;
-    height: calc(100vh - 13.6rem);
-    background-color: #003F73;
-} */
+    height: 100%;
+    justify-content: space-around;
+    padding-right: 6rem;
+}
+.ace{
+    background-image: url(../imagens/ace.png);
+    background-repeat: no-repeat;
+    height: 44rem;
+    width: 40.9rem;
+    background-size: cover;
+}
+.formContact{
+    width: 100%;
+    max-width: 50rem;
+    font-size: 1.525rem;
+    padding: 2rem;
+}
+
+.form label, .form input, .form textarea .form button{
+    display: block;
+    color: rgb(219, 219, 219);
+    padding-bottom: 0.5rem;
+}
+
+.form input, .form textarea{
+    width: 50rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid transparent;
+    border-radius: 0.8rem;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus{
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 0.3rem #4dc8ff;
+}
+.form button{
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    border:none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 50rem;
+}
+.form button:hover, .form button:focus{
+    outline:none;
+    background: #09d;
+}

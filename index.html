@@ -35,10 +35,17 @@
     
     <section id="inicial">
       <div class="capa"></div>
-      <div class="foto1"></div>
-      <div class="sobremim">
-        <h2>Sobre mim</h2>
-        <h3>Meu nome é Rodrigo, tenho 20 anos. Moro em Vitória, ES. Sou capixaba e tenho uma irmã chamada Lorenna. Estudo programação voltada mais para o front-end, busco sempre aprender e crescer cada vez mais.</h3>
+      <div class="gridinicial">
+          <div class="gridsobremim">
+            <div class="sobremim">
+              <h2>Sobre mim</h2>
+              <h3>Meu nome é Rodrigo, tenho 20 anos. Moro em Vitória, ES. Sou capixaba e tenho uma irmã chamada Lorenna. Estudo programação voltada mais para o front-end, busco sempre aprender e crescer cada vez mais.</h3> 
+            </div>
+        </div>
+          <div class="gridfoto">
+            <div class="foto1"></div>
+          </div>
+        </div>
       </div>
     </section>
     
@@ -127,19 +134,26 @@
           </div>      
         </div>
       </div>
+      <section id="contato">
+        <div class="ace"></div>
+        <div id="contact">
+          <div class="formContact">
+            <form action="https://formsubmit.co/rodrigovixcosta@gmail.com" method="POST" class="form">  
+              <label for="name">Nome</label>
+              <input type="text" name="nome" id="name" required />
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required placeholder="nome@dominio.com">
+              <label for="message">Mensagem</label>
+              <textarea name="mensagem" id="message" required placeholder="Digite sua mensagem"></textarea>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://irmaodalorenna.vercel.app">
+              <button type="submit">Enviar</botton>
+            </form>
+          </div>
+        </div>
+      </section>
     </section>
-    <!-- <section id="contact" class="contact">
-      <form action="https://formsubmit.co/rodrigovixcosta@gmail.com" method="POST" class="form">  
-        <label for="name">Nome</label>
-        <input type="text" name="name" id="name" required />
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" required>
-        <textarea name="message" id="message" required>Mensagem</textarea>
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" id="http://127.0.0.1:5500/index.html">
-        <button type="submit">Enviar</botton>
-      </form>
-    </section> -->
+
     <footer>
       <div>
         <h1 class="pe_da_letra"> &copy; Rodrigo da Vitória - Irmão da Lorenna.</h1>
