@@ -1,4 +1,4 @@
-#inicial{
+.inicial{
     background-image:url("../imagens/capa.webp");
     height: 100vh;
     background-attachment: fixed;
@@ -39,6 +39,11 @@
     display: grid;
     grid-template-rows: 1fr 2.7fr;
     grid-template-columns: 0.8fr 10fr 0.8fr;
+}
+.sobremim:hover{
+    border: 1px solid goldenrod;
+    transition: 0.4s;
+    background: rgb(243, 243, 243) ;
 }
 .sobremim h2{
     font-size: 4rem;

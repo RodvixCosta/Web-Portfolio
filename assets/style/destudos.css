@@ -1,15 +1,11 @@
-#estudos{
-    width: 100%;
-    height: 100vh;
+.estudos{
     display: flex;
     padding: 3rem 10rem;
     background-image: linear-gradient(to bottom, #ffffff, #f3f5ff, #e3edff, #cce6ff, #b1e0ff, #93d7ff, #6ecdff, #37c4ff, #00b2ff, #109aff, #005091, #003f73);
-}
-#estudos{
     width: 100%;
     height: calc(100vh - 13.6rem);
     display: flex;  
-    flex-direction: column;  
+    flex-direction: column; 
 }
 .estudos_title{
     flex-direction: column;
@@ -57,10 +53,8 @@
     0%{transform: rotate(0);}
     100%{transform: rotate(360deg);}
 }
-#estudos div h1{
+.estudos div h1{
     /* Estudos */
-font-style: normal;
-font-weight: normal;
 font-size: 64px;
 color: #000000;
 }
